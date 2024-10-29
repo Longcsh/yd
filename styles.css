@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background: url('image/bac.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.members {
+    display: flex;
+    flex-direction: column; /* Xếp theo hàng dọc */
+    align-items: center; /* Canh giữa các thành viên */
+    gap: 20px; /* Khoảng cách giữa các thành viên */
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+.member-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.avatar-large {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
